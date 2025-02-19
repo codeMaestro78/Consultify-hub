@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Login Form</title>
+</head>
+
+<body>
+  <div class="container" id="container">
+    <div class="form-container sign-up">
+      <form name="f1">
+        <h1>Create Account</h1>
+        <div class="social-icons">
+          <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.google.co.in/" target="_blank"><i class="fab fa-google"></i></a>
+          <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://in.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <span>or use your email for registration</span>
+        <input type="text" placeholder="UserName" required />
+        <input type="email" placeholder="Email" id="i1" required />
+        <input type="password" placeholder="Password" required />
+        <button id="signup-button">SignUp</button>
+      </form>
+    </div>
+    <div class="form-container sign-in">
+      <form>
+        <h1>SignIn</h1>
+        <div class="social-icons">
+          <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.google.co.in/"><i class="fab fa-google"></i></a>
+          <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+          <a href="https://in.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <span>or use your email and password</span>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button>SignIn</button>
+      </form>
+    </div>
+    <div class="toggle-container">
+      <div class="toggle">
+        <div class="toggle-panel toggle-left">
+          <h1>Welcome Back</h1>
+          <p>Enter your details to access feature of this site</p>
+          <button class="hidden" id="login">SignIn</button>
+        </div>
+        <div class="toggle-panel toggle-right">
+          <h1>Hello Devarshi</h1>
+          <p>Enter your details and let's get start it</p>
+          <button class="hidden" id="register">SignUp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

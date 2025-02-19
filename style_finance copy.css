@@ -1,0 +1,309 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+    .Technology
+    {
+        color: antiquewhite;
+       box-sizing: border-box;
+       margin: 0 30px;
+       margin-bottom: 20px;
+    }
+    :root
+    {
+        --p-color:#fff;
+    }
+    .Technology h1
+    {
+        top: 0px;
+        margin-top: 0px;
+        font-size: 5.85rem;
+        
+    }
+        .Technology-section {
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            position: relative;
+            z-index: 1;
+        }
+
+        .technology-content {
+            max-width: 50%;
+            padding: 0 20px;
+        }
+        .technology-content li
+        {
+            color: #fff;
+        }
+        .auto-sevices a:hover
+        {
+            color: bisque;
+
+        }
+
+        .technology-content h1 {
+           margin: 0;
+           color: var(--p-color);
+           font-size: 2.85rem;
+           margin-bottom: 50px;
+           letter-spacing: 1px;
+           animation-name: slideInFromLeft;
+           animation-duration: 1s;
+           animation-delay: 0.5s;
+           animation-fill-mode: forwards;
+           opacity: 0;
+        }
+        @keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+        .technology-content p {
+            font-weight: 70;
+            line-height: 1.5;
+           font-family: Arial, Helvetica, sans-serif;
+            font-size: 17.5px;
+            position: relative;
+            left: 0px;
+            right: 605px;
+            color: var(--p-color);
+        }
+
+        .techno-img img {
+            border-radius: 20px;
+            max-width: 100%;
+            vertical-align: middle;
+            margin-top: 280px;
+            animation-name: slideInFrom;
+           animation-duration: 1s;
+           animation-delay: 0.5s;
+           animation-fill-mode: forwards;
+           opacity: 0;
+        
+        }
+        @keyframes slideInFrom {
+        from {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+        }
+
+         .sticky-container {
+            position: sticky;
+            top: 0;
+            background-color: #191f36;
+        }
+        .submenu-inner {
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .auto-sevices {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .auto-sevices li {
+            margin: 0 10px;
+            color: aqua;
+        }
+        .auto-sevices li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+        }
+        .content-section {
+            padding: 50px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 center;
+        }
+        .specialties-points {
+            border: #fff;
+            border-style: solid;
+            border-radius: 16px;
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center; 
+            padding: 20px; 
+}
+
+.specialties-points li {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    background-color:#191f36; 
+    color: #fff;
+    border-radius: 8px; 
+}
+.specialties-points a
+{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    background-color:#191f36; 
+    color: #fff;
+    border-radius: 8px; 
+}
+.specialties-points a:hover
+{
+    color: burlywood;
+    transition: 0.3s ease-in color;
+}
+
+
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.comm-sec {
+    padding: 50px 0;
+    border-bottom: 1px solid #ccc; 
+}
+
+
+.sec-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-head {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.sub-line {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.searches-sec {
+    margin-top: 30px;
+}
+
+
+.searches-box {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+.searches-box::after {
+    content: ''; 
+    position: absolute; 
+    bottom: -10px; 
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; 
+}
+
+.searches-head {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.searches-info {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.f-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px; 
+}
+
+.f-col {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+/* Animation */
+.aos-init {
+    opacity: 0;
+    will-change: opacity, transform;
+}
+
+.aos-animate {
+    animation-fill-mode: both;
+}
+
+[data-aos-duration="1000"] {
+    animation-duration: 1s;
+}
+
+
+[data-aos-easing="ease"] {
+    transition-timing-function: ease;
+}
+
+[data-aos="fade-up"] {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+[data-aos="fade-up"].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+.last-text h1
+{
+    color: #fff;
+}
+
+.last-text {
+    text-align: center;
+    border-style:solid;
+    border-radius: 16px;
+    border-spacing: 15px;
+    display: block;
+
+
+}
+
+.getintouch {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+    margin-top: 45px;
+}

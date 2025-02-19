@@ -1,0 +1,75 @@
+body{
+    background-color:#191f36;
+    color: #fff;
+}
+input[type="text"],input[type="date"],select,input[type="email"],input[type="number"]{
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: medium;
+    margin-left: 45px;
+    margin-top: 25px;
+    text-indent: 20px;
+}
+table{
+    align-items: center;
+    padding: 50px;
+    align-self: center;
+}
+option{
+    color: black;
+}
+::placeholder{
+    color: black;
+    font-size: medium;
+    text-indent: 20px;
+}
+input[type="submit"]:hover {
+    background-color: #191f36;
+    color: #fff;
+}
+
+input[type="submit"] {
+    background-color:#59B2F4;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+    height: 55px;
+    display: inline-block;
+    box-shadow: 0 0 1rem #59B2F4;
+    font-size: 1.6rem;
+    font-weight: 500;
+    transition: 0.5s ease;
+    color: #191f36;
+    margin-top: 10px;   
+}
+input[type="date"]::-webkit-calendar{
+    background-color:#191f36;
+}
+
+h1{
+    color: #fff;
+    font-weight: 500px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: medium;
+    margin-left: 45px;
+    margin-top: 25px;
+    text-indent: 20px;
+    background-color: #fff;
+    color: black;
+}
+
+input[type="file"]{
+    margin-top: 15px;
+    font-size: 13px;
+}
